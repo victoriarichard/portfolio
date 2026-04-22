@@ -1,0 +1,19 @@
+{
+  "name": "bonzo-monday-sync",
+  "version": "1.0.0",
+  "description": "Webhook app to sync Bonzo CRM leads to Monday.com when stage is Appt Scheduled.",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
